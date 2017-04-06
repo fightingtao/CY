@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChangeTelephoneNumberController">
+            <connections>
+                <outlet property="changNumber" destination="yjX-fR-UtS" id="o1M-FK-nGx"/>
+                <outlet property="oldLable" destination="rvv-8e-yI9" id="1QD-OB-I4i"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="299"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" *更换手机号后需使用新的手机号重新进行登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sod-4h-XtK">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="LSe-xK-nZX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvv-8e-yI9">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="3n1-Yc-qjE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入您要更换的手机号码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="yjX-fR-UtS">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="VxD-AT-U40"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rL-Au-j16">
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="pt7-EN-l4j"/>
+                    </constraints>
+                </view>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UPj-23-Li5">
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Y9L-fE-E17"/>
+                    </constraints>
+                </view>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="01Q-VO-7TR">
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="XaP-JI-cXp"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_login_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="QTk-ZQ-Lxb">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="H3z-b1-z35"/>
+                        <constraint firstAttribute="height" constant="31" id="UI7-Im-8RF"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_login_phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="OHb-Uk-tbW">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="dSM-pe-tEQ"/>
+                        <constraint firstAttribute="height" constant="31" id="guh-4X-CSz"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtO-OP-THS">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="SrW-Av-k35"/>
+                        <constraint firstAttribute="width" constant="100" id="e47-16-IKG"/>
+                        <constraint firstAttribute="height" constant="30" id="flY-7K-xkq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title="确认修改">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="SrW-Av-k35"/>
+                            <exclude reference="e47-16-IKG"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="countersignBtnClick:" destination="-1" eventType="touchUpInside" id="Nq4-Uo-14Z"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OHb-Uk-tbW" firstAttribute="top" secondItem="UPj-23-Li5" secondAttribute="bottom" constant="5" id="2rc-dk-JO8"/>
+                <constraint firstItem="yjX-fR-UtS" firstAttribute="leading" secondItem="OHb-Uk-tbW" secondAttribute="trailing" constant="5" id="8AT-3h-nWm"/>
+                <constraint firstItem="rvv-8e-yI9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="96d-YM-ekh"/>
+                <constraint firstAttribute="trailing" secondItem="rvv-8e-yI9" secondAttribute="trailing" id="9ul-tK-c3I"/>
+                <constraint firstItem="UPj-23-Li5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="Awj-m6-WQr"/>
+                <constraint firstItem="CtO-OP-THS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="BNx-gg-5iV"/>
+                <constraint firstItem="sod-4h-XtK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cju-q2-YnB"/>
+                <constraint firstItem="4rL-Au-j16" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="DcI-rS-1Ac"/>
+                <constraint firstItem="QTk-ZQ-Lxb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="Fch-vF-6ys"/>
+                <constraint firstAttribute="trailing" secondItem="CtO-OP-THS" secondAttribute="trailing" constant="40" id="Fd5-uO-2gn"/>
+                <constraint firstItem="CtO-OP-THS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Kfw-m3-fIZ"/>
+                <constraint firstItem="01Q-VO-7TR" firstAttribute="top" secondItem="yjX-fR-UtS" secondAttribute="bottom" id="Lbe-fO-BXn"/>
+                <constraint firstItem="yjX-fR-UtS" firstAttribute="top" secondItem="rvv-8e-yI9" secondAttribute="bottom" constant="1" id="O3A-2G-zrS"/>
+                <constraint firstItem="CtO-OP-THS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="Q65-8k-Fns"/>
+                <constraint firstItem="QTk-ZQ-Lxb" firstAttribute="top" secondItem="4rL-Au-j16" secondAttribute="bottom" constant="5" id="X1V-jD-kBP"/>
+                <constraint firstAttribute="trailing" secondItem="4rL-Au-j16" secondAttribute="trailing" constant="5" id="Yrn-Fc-hg0"/>
+                <constraint firstItem="rvv-8e-yI9" firstAttribute="top" secondItem="sod-4h-XtK" secondAttribute="bottom" constant="10" id="cjH-Eb-1Fe"/>
+                <constraint firstItem="sod-4h-XtK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="drS-F9-kbC"/>
+                <constraint firstItem="CtO-OP-THS" firstAttribute="top" secondItem="yjX-fR-UtS" secondAttribute="bottom" constant="50" id="j1m-Uf-WUr"/>
+                <constraint firstItem="rvv-8e-yI9" firstAttribute="leading" secondItem="QTk-ZQ-Lxb" secondAttribute="trailing" constant="5" id="jLw-EI-eSw"/>
+                <constraint firstItem="rvv-8e-yI9" firstAttribute="leading" secondItem="QTk-ZQ-Lxb" secondAttribute="trailing" constant="10" id="mLg-Xt-8aM"/>
+                <constraint firstAttribute="trailing" secondItem="01Q-VO-7TR" secondAttribute="trailing" constant="5" id="ngh-DV-gUC"/>
+                <constraint firstItem="OHb-Uk-tbW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="nxS-ti-3ui"/>
+                <constraint firstAttribute="trailing" secondItem="sod-4h-XtK" secondAttribute="trailing" id="qK7-c8-nnj"/>
+                <constraint firstAttribute="trailing" secondItem="UPj-23-Li5" secondAttribute="trailing" constant="5" id="sHy-mV-Smn"/>
+                <constraint firstItem="4rL-Au-j16" firstAttribute="top" secondItem="sod-4h-XtK" secondAttribute="bottom" constant="10" id="tBP-sQ-wdi"/>
+                <constraint firstItem="01Q-VO-7TR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="tbV-PL-BoS"/>
+                <constraint firstItem="UPj-23-Li5" firstAttribute="top" secondItem="rvv-8e-yI9" secondAttribute="bottom" id="wTb-wL-scI"/>
+                <constraint firstItem="yjX-fR-UtS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="x15-AL-utK"/>
+                <constraint firstAttribute="trailing" secondItem="yjX-fR-UtS" secondAttribute="trailing" constant="2" id="zkd-oJ-XiD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="96d-YM-ekh"/>
+                    <exclude reference="mLg-Xt-8aM"/>
+                    <exclude reference="x15-AL-utK"/>
+                    <exclude reference="BNx-gg-5iV"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="91" y="309.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_login_phone.png" width="25" height="25"/>
+    </resources>
+</document>
